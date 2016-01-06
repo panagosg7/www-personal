@@ -1,0 +1,21 @@
+body {
+  /*padding: 50px;*/
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/  
+  font: "Fira Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.undersubmission {
+    font-style: italic;    
+}
+
+a, u {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    font-weight: bold;
+}
