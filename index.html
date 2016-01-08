@@ -22,11 +22,14 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <!--<link rel="icon" type="image/png" href="images/favicon.png">-->
+
+
 
 </head>
 
@@ -35,14 +38,30 @@
 
 
     <!-- Main body =============================================== -->
+    <!-- Bootstrap
+    <div class="container header" style="margin-top: 1%">
+        <div class="page-header">
+            <div class="row">
+                <div class="col-xs-6 col-md-4"><h2>Panagiotis Vekris</h2></div>
+                <div class="col-xs-6 col-md-4"><img style="margin-bottom: 3px;" src="images/me.jpg"/></div>
+                <div class="col-xs-6 col-md-4"><h4>
+                    Graduate Student Researcher</br>
+                    Department of Computer Science</br>
+                    University of California, San Diego
+                </h4></div>
+            </div>
+        </div>
+    </div>
+    -->
+
 
     <div class="container header" style="margin-top: 1%">
        <div class="row" >
-            <div class="five columns" align="center">
-                <h2>Panagiotis Vekris</h2>
+            <div class="four columns" align="center">
+                <h3>Panagiotis Vekris</h3>
             </div>
-            <div class="two columns" align="center">
-                <img style="margin-bottom: 3px;" src="images/me.jpg"/>
+            <div class="three columns" align="center">
+                <img class="fill-container" style="margin-bottom: 3px;" src="images/me.jpg"/>
             </div>
             <div class="five columns" align="center">
                 <h5 >
@@ -56,11 +75,11 @@
 
     <hr/>
 
+
     <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container" >
         <div class="row">
-
             <div class="three columns">
                 <h4>About</h4>
                 <hr/>
@@ -73,20 +92,56 @@
                     Email: <a href="mailto:pvekris@cs.ucsd.edu">pvekris@cs.ucsd.edu</a>
                 </span>
                 <hr/>
+
+                <!--
                 <div class="row">
                     <div class="three columns">
-                        <img href="https://github.com/panagosg7/" src="images/gh32.png"/>
+                        <img class="fill-container" href="https://github.com/panagosg7/" src="images/gh32.png"/>
                     </div>
                     <div class="three columns">
-                        <img href="https://www.linkedin.com/pub/panagiotis-vekris/62/374/a44" src="images/in34.png"/>
+                        <img class="fill-container" href="https://www.linkedin.com/pub/panagiotis-vekris/62/374/a44" src="images/in34.png"/>
                     </div>
                     <div class="three columns">
-                        <img href="http://dblp.uni-trier.de/pers/hd/v/Vekris:Panagiotis" src="images/dblp32.png"/>
+                        <img class="fill-container" href="http://dblp.uni-trier.de/pers/hd/v/Vekris:Panagiotis" src="images/dblp32.png"/>
                     </div>
                     <div class="three columns">
-                        <img href="https://twitter.com/panagosg7" src="images/tw32.png"/>
+                        <img class="fill-container" href="https://twitter.com/panagosg7" src="images/tw32.png"/>
                     </div>
                 </div>
+                -->
+
+                 <table >
+                 <!--<table class="u-full-width">-->
+                    <thead>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="border-bottom: 0px">
+                                <a href="https://github.com/panagosg7/">
+                                    <img class="fill-container"  src="images/gh32.png"/>
+                                </a>
+                            </td>
+                            <td style="border-bottom: 0px">
+                                <a href="https://www.linkedin.com/pub/panagiotis-vekris/62/374/a44">
+                                    <img class="fill-container" src="images/in34.png"/>
+                                </a>
+                            </td>
+                            <td style="border-bottom: 0px">
+                                <a href="http://dblp.uni-trier.de/pers/hd/v/Vekris:Panagiotis">
+                                    <img class="fill-container" src="images/dblp32.png"/>
+                                </a>
+                            </td>
+                            <td style="border-bottom: 0px">
+                                <a href="https://twitter.com/panagosg7">
+                                    <img class="fill-container" src="images/tw32.png"/>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                 </table>
+
+
+
             </div>
 
 
@@ -102,7 +157,7 @@
                     <tbody>
                         <tr>
                             <td>
-                                <span class="undersubmission">under submission</span>
+                                <span class="under-submission">under submission</span>
                             </td>
                             <td>
                                 <span class="title">
@@ -185,6 +240,8 @@
 
         </div>
     </div>
+
+    <!--<script src="./js/bootstrap.min.js"></script>-->
 
     <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
